@@ -75,7 +75,7 @@ async def on_ready() -> None:
     await bot.change_presence(
         activity=discord.Activity(
             type=discord.ActivityType.watching,
-            name=f"{PREFIX}ajuda | Logos",
+            name=f"{PREFIX}ajuda | Up",
         )
     )
 
